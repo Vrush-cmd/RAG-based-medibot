@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: medrag
+Version: 0.1.0
+Summary: A local, cited medical-information RAG assistant
+Requires-Python: >=3.10
+Provides-Extra: ui
+Requires-Dist: streamlit>=1.35; extra == "ui"
+Provides-Extra: llm
+Requires-Dist: anthropic>=0.30; extra == "llm"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Dynamic: requires-python
