@@ -33,3 +33,10 @@ The intended primary source is MedlinePlus Health Topics XML, from the U.S. Nati
 Keep a frozen MedQuAD test set separate from ingestion questions. Measure retrieval hit@k, MRR and recall@k before generation; then measure faithfulness, answer relevance, context precision/recall, abstention, and red-flag coverage. Compare against the same model without retrieval. Every run should record the configuration, commit, source file date, and a small hand-reviewed failure sample.
 
 See the ignored [interview-prep.md](docs/interview-prep.md) for the architecture walkthrough, trade-offs, and likely interview questions.
+
+## Demo
+
+https://github.com/user-attachments/assets/6c2f4312-4e48-4ab5-8282-05a82b895b40
+
+
+
